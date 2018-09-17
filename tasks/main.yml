@@ -23,10 +23,7 @@
   when: java_packages is not defined
 
 # Setup/install tasks.
-- include_tasks: setup-RedHat-6.yml
-  when: ansible_os_family == 'RedHat'
-
-- include_tasks: setup-RedHat-7.yml
+- include_tasks: setup-RedHat.yml
   when: ansible_os_family == 'RedHat'
 
 - include_tasks: setup-Debian.yml
