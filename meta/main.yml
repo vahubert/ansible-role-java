@@ -2,7 +2,8 @@
 dependencies: []
 
 galaxy_info:
-  author: geerlingguy
+  name: java
+  author: vahubert
   description: Java for Linux
   company: "Midwestern Mac, LLC"
   license: "license (BSD, MIT)"
