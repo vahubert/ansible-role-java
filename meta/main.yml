@@ -2,7 +2,7 @@
 dependencies: []
 
 galaxy_info:
-  name: java
+  role_name: java
   author: vahubert
   description: Java for Linux
   company: "Midwestern Mac, LLC"
