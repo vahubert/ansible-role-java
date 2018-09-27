@@ -5,7 +5,7 @@ galaxy_info:
   role_name: java
   author: vahubert
   description: Java for Linux
-  company: "Midwestern Mac, LLC"
+  company: "NGI HEALTHCARE IT"
   license: "license (BSD, MIT)"
   min_ansible_version: 2.4
   platforms:
