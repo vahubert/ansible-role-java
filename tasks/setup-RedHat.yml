@@ -1,5 +1,5 @@
 ---
 - name: Ensure Java is installed.
-  # package: "name={{ item }} state=present"
+  yum: "name={{ item }} state=present"
   with_items: "{{ java_packages }}"
-  raw: "yum install -y {{ java_packages }}"
+  # raw: "yum install -y {{ java_packages }}"
